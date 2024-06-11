@@ -1,0 +1,75 @@
+header {
+    background-color: black;
+    max-width: 459px;
+    margin: 0 auto;
+    border-radius: 100px;
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 1rem;
+    padding: 1.1rem;
+    font-weight: 600;
+    font-family: "Roboto", sans-serif;
+
+}
+
+nav ul {
+    display: flex;
+
+}
+
+nav ul li {
+    margin: 0 1rem;
+
+}
+
+nav ul li a {
+    color: white;
+    margin: 0 .5rem;
+    padding: .8rem 2rem;
+    transition: 0.2s;
+
+}
+
+nav ul li a:hover {
+    background-color: white;
+    color: black;
+    border-radius: 100px;
+    transition: 0.2s;
+
+}
+
+@media only screen and (max-width: 480px) {
+    header {
+        max-width: 200px;
+        
+    }
+    nav {
+        padding: .5rem;
+        align-items: center;
+
+    }
+    nav ul li {
+        margin: 0;
+        display: flex;
+
+    }
+    nav ul li a {
+        font-size: .5rem;
+        padding: .1rem;
+    }
+  }
+  
+
+  @media only screen and (min-width: 481px) and (max-width: 768px) {
+    /* Estilos para tablets */
+  }
+  
+
+  @media only screen and (min-width: 769px) {
+    /* Estilos para desktops */
+  }
+  
